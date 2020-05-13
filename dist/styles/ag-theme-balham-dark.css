@@ -1348,7 +1348,9 @@
     background-color: var(--ag-header-background-color, #1c1c1c);
     border-bottom: solid 1px;
     border-bottom-color: #424242;
-    border-bottom-color: var(--ag-border-color, #424242); }
+    border-bottom-color: var(--ag-border-color, #424242);
+    position: relative;
+  }
   .ag-theme-balham-dark .ag-header-row {
     color: rgba(245, 245, 245, 0.64);
     color: var(--ag-header-foreground-color, rgba(245, 245, 245, 0.64)); }
@@ -2024,4 +2026,3 @@
     margin-bottom: 6px; }
   .ag-theme-balham-dark .ag-tooltip {
     background-color: #1c1f20; }
-
